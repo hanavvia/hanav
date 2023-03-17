@@ -1,0 +1,33 @@
+{
+  "name": "@hanav/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "consola": "^2.15.3",
+    "escape-html": "^1.0.3",
+    "markdown-it-container": "^3.0.0",
+    "prismjs": "^1.29.0",
+    "vitepress": "1.0.0-alpha.47"
+  },
+  "dependencies": {
+    "@hanav/components": "workspace:*",
+    "@hanav/configrable": "workspace:*",
+    "markdown-it": "^13.0.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}

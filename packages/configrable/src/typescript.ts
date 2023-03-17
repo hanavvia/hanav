@@ -1,0 +1,1 @@
+export type ConfigurableMountFunction = (contaniner: string) => {}
